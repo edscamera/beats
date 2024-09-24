@@ -1,0 +1,28 @@
+.track-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.track {
+  border: 1px solid black;
+  min-height: 100px;
+
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem;
+
+  align-items: center;
+}
+
+.note-container {
+  border: 1px solid black;
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+.track-info-container {
+    display: flex;
+    flex-direction: column;
+}
